@@ -1,75 +1,119 @@
 
-.headers {
-	text-align: center;
+#divp {
+	font-size: 1px;
+	margin:50px;
 	color:black;
+	background-color: lavender;
+	border:30px solid yellow;
+}
 
-}
-#h1 {font-size: 60px;
 
+#h2 {
+	font-size: 30px;
+	background-color: #9dccda;
+	margin:100px;
+	border:40px solid pink;
+	padding:30px;
+}
+.headers {
+	text-align:center;
+}
+.pictures {
+	size: 60px;
+	display:block;
+	margin:auto;
+}
 
-}	
-#h2 {font-size: 40px;
+#h1 {margin:100px;
+	padding:50px;
+	border:50px solid lavender;
+	background:linear-gradient(45deg,pink,yellow);
+	font-size:40px;
 }
-#div1 {
-	background-color: #deb5b5;
-	border:5px solid white;
-	padding:10px;
-}
-#div2 {
-	background-color:pink;
-	margin:100px 50px 10px 50px;
-	border:5px dashed white;
-	transition-duration:0.5s;
-}
-#div2:hover {
-	background-color:pink;
-	background:linear-gradient(45deg,pink,yellow,pink);
-}
-.pictures {	
-	border:5px dotted white;
-}
-#lol {
-	width:45%;
-}
-#green {
-	width:30%;
-}
-#puppymoji {
-	transform-rotate:(45deg);
-	width:40%;
-}
-#puppykoa {
+#Moji {
+	transform:rotate(90deg);
 	width:50%;
 }
+#Picofme {
+	width:40%;
+}
+#Koa {
+	width:35%;
+}
+h5 {
+	font-size:30px;
+	color:black;
+}
+h4 {
+	font-size:30px;
+	color:black;
+}
+h3 {
+	font-size:30px;
+}
 p {
-	font-size: 20px;
-	background-color:pink;
-	padding:20px;
-	border:5px solid white;
-	margin:60px 30px 60px 30px;
-	color:black;
-	transition-duration: 0.3s;
+	font-size:20px;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 90%; 
+  padding: 12px; 
+  border: 10px solid pink; 
+  border-radius: 40px; 
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
-p:hover {
-	background:linear-gradient(45deg,pink,yellow,pink);
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: pink;
+  color: white;
+  padding: 12px 20px;
+  border: black 10px double;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color:#1b5a6d;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color:#6ac1c3;
+  padding: 20px;
+}
+#link {
+	color:black;
+	background:linear-gradient(45deg,pink,yellow);
+	font-size:20px;
+}
+link:hover {
+	color:white;
+}
+.navbar {
+	background-color:pink;
+	margin:auto;
+	font-size:20px;	
+}
+#Aboutme {
 	color:black;
 }
-#div1 {
-	background: linear-gradient(45deg,pink, white,pink);
+#Aboutmoji {
+	color:black;
 }
-body {
-	background: linear-gradient(45deg, #56B6E7,#DEB5B9);
-	font-family: 'B612', sans-serif;
+#Aboutkoa {
+	color:black;
+}
 
-}
-#button:hover {
-	background-color:pink;
-	color:yellow;
-	font-size: 45px;
-	letter-spacing:5px;
-	transform:rotate(360deg);
-}
+
+
+
+
 
 
 
