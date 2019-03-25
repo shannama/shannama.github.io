@@ -9,7 +9,7 @@
     	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 		<link href="https://fonts.googleapis.com/css?family=B612" rel="stylesheet">
-    <link href="stylesheet" href="index.js">
+    <script src="index.js"></script>
 		<link rel="stylesheet" href="index.css">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#"></a>
@@ -33,7 +33,7 @@
 			<h2 class="headers" id="h2"> About me</h2>
 		</div>
 		<div id="divp">
-    <p>I am currently a sophomore at Monta Vista High School. Some of the things I like to do in my free time include listening to music, hanging out with my friends and playing with my dog. I also play water polo and swim. </p>  
+    <p>My name is Shanna Ma, and I am currently a sophomore at Monta Vista High School. Some of the things I like to do in my free time include listening to music, cycling, hanging out with my friends, playing with my dogs, swimming, and sleeping!  </p>  
 		</div>
 		<div class="bd-example">
   <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
@@ -78,7 +78,7 @@
 
 		<a id="link" href="https://www.youtube.com">Favorite website </a> 
 <div class="container">
-  <form action="action_page.php">
+  
 
     <label for="fname">First name</label>
     <input type="text" id="firstname" name="firstname" >
@@ -95,9 +95,10 @@
     <label for="subject"></label>
     <textarea  id="subject" name="Tell me something!" placeholder="Tell me something!" style="height:100px"></textarea>
 
-    <input type="submit" value="Submit">
+    <button class="btn btn-primary" onclick="validate()">Submit</button>
+      <p id="formerrors"></p>
 
-  </form>
+ 
 </div>
 	</body> 
 <html>

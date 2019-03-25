@@ -23,10 +23,8 @@
 	background:linear-gradient(45deg,pink,yellow);
 	font-size:40px;
 }
-.navbar {
-	background-color:pink;
-	margin:auto;
-	font-size:20px;	
+p {
+	font-size:20px;
 }
 #Aboutme {
 	color:black;
@@ -37,6 +35,15 @@
 #Aboutkoa {
 	color:black;
 }
-p {
-	font-size:20px;
+.navbar {
+	background-color:pink;
+	margin:auto;
+	font-size:20px;	
+}
+#meandkoa {
+	transform:rotate(90deg);
+	width:50%;
+	display:block;
+	margin:auto;
+	margin-top: 300px;
 }
