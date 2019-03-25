@@ -1,0 +1,42 @@
+#divp {
+	font-size: 1px;
+	margin:50px;
+	color:black;
+	background-color: lavender;
+	border:30px solid yellow;
+}
+
+
+#h2 {
+	font-size: 30px;
+	background-color: #9dccda;
+	margin:100px;
+	border:40px solid pink;
+	padding:30px;
+}
+.headers {
+	text-align:center;
+}
+#h1 {margin:100px;
+	padding:50px;
+	border:50px solid lavender;
+	background:linear-gradient(45deg,pink,yellow);
+	font-size:40px;
+}
+.navbar {
+	background-color:pink;
+	margin:auto;
+	font-size:20px;	
+}
+#Aboutme {
+	color:black;
+}
+#Aboutmoji {
+	color:black;
+}
+#Aboutkoa {
+	color:black;
+}
+p {
+	font-size:20px;
+}

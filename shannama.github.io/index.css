@@ -1,0 +1,126 @@
+
+#divp {
+	font-size: 1px;
+	margin:50px;
+	color:black;
+	background-color: lavender;
+	border:30px solid yellow;
+}
+
+
+#h2 {
+	font-size: 30px;
+	background-color: #9dccda;
+	margin:100px;
+	border:40px solid pink;
+	padding:30px;
+}
+.headers {
+	text-align:center;
+}
+.pictures {
+	size: 60px;
+	display:block;
+	margin:auto;
+}
+
+#h1 {margin:100px;
+	padding:50px;
+	border:50px solid lavender;
+	background:linear-gradient(45deg,pink,yellow);
+	font-size:40px;
+}
+#Moji {
+	transform:rotate(90deg);
+	width:50%;
+}
+#Picofme {
+	width:40%;
+}
+#Koa {
+	width:35%;
+}
+h5 {
+	font-size:30px;
+	color:black;
+}
+h4 {
+	font-size:30px;
+	color:black;
+}
+h3 {
+	font-size:30px;
+}
+p {
+	font-size:20px;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 90%; 
+  padding: 12px; 
+  border: 10px solid pink; 
+  border-radius: 40px; 
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: pink;
+  color: white;
+  padding: 12px 20px;
+  border: black 10px double;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color:#1b5a6d;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color:#6ac1c3;
+  padding: 20px;
+}
+#link {
+	color:black;
+	background:linear-gradient(45deg,pink,yellow);
+	font-size:20px;
+}
+link:hover {
+	color:white;
+}
+.navbar {
+	background-color:pink;
+	margin:auto;
+	font-size:20px;	
+}
+#Aboutme {
+	color:black;
+}
+#Aboutmoji {
+	color:black;
+}
+#Aboutkoa {
+	color:black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
