@@ -1,1 +1,0 @@
-# shannama.github.io
